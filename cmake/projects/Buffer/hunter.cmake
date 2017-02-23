@@ -11,7 +11,7 @@ hunter_add_version(
     URL
     "https://github.com/designerror/buffer/archive/v0.1.0.tar.gz"
     SHA1
-    c54c5b35a5c22630912f28cec9d614a00c28e1cf
+    10f08bb239c1ae142b33491f0eeb6339332736c1
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
