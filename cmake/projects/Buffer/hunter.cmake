@@ -7,7 +7,7 @@ hunter_add_version(
     PACKAGE_NAME
     Buffer
     VERSION
-    "0.1.3"
+    "0.1.4"
     URL
     "https://github.com/designerror/buffer/archive/v0.1.4.tar.gz"
     SHA1
