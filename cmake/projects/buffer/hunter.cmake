@@ -60,4 +60,4 @@ hunter_add_version(
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 
-hunter_download(PACKAGE_NAME Buffer)
+hunter_download(PACKAGE_NAME buffer)
