@@ -24,7 +24,7 @@ include(hunter_user_error)
 
 # NOTE: no names with spaces!
 
-hunter_config(Buffer VERSION 0.1.4)
+hunter_config(buffer VERSION 0.1.4)
 hunter_config(AllTheFlopsThreads VERSION 0.1-p0)
 hunter_config(Android-Apk VERSION 1.1.13)
 hunter_config(Android-Build-Tools VERSION 22.0.1)
