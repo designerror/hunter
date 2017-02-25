@@ -3,6 +3,18 @@ include(hunter_download)
 include(hunter_pick_scheme)
 
 # List of versions here...
+
+hunter_add_version(
+    PACKAGE_NAME
+    buffer
+    VERSION
+    "0.1.5"
+    URL
+    "https://github.com/designerror/buffer/archive/v0.1.5.tar.gz"
+    SHA1
+    bd83aaacb72ef478bf3489c261391d300247540e
+)
+
 hunter_add_version(
     PACKAGE_NAME
     buffer
