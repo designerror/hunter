@@ -10,6 +10,17 @@ hunter_add_version(
     VERSION
     "0.1.6"
     URL
+    "https://github.com/designerror/buffer/archive/v0.1.7.tar.gz"
+    SHA1
+    bc9d644ea606bcd1dfbb42582ed593d4c42d9531
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    buffer
+    VERSION
+    "0.1.6"
+    URL
     "https://github.com/designerror/buffer/archive/v0.1.6.tar.gz"
     SHA1
     23a33907e5eef0353d3c85c0e083413d5292b35a
