@@ -5,7 +5,7 @@ include(hunter_pick_scheme)
 # List of versions here...
 hunter_add_version(
     PACKAGE_NAME
-    Buffer
+    buffer
     VERSION
     "0.1.4"
     URL
@@ -16,7 +16,7 @@ hunter_add_version(
 
 hunter_add_version(
     PACKAGE_NAME
-    Buffer
+    buffer
     VERSION
     "0.1.3"
     URL
@@ -27,7 +27,7 @@ hunter_add_version(
 
 hunter_add_version(
     PACKAGE_NAME
-    Buffer
+    buffer
     VERSION
     "0.1.2"
     URL
@@ -38,7 +38,7 @@ hunter_add_version(
 
 hunter_add_version(
     PACKAGE_NAME
-    Buffer
+    buffer
     VERSION
     "0.1.1"
     URL
@@ -49,7 +49,7 @@ hunter_add_version(
 
 hunter_add_version(
     PACKAGE_NAME
-    Buffer
+    buffer
     VERSION
     "0.1.0"
     URL
