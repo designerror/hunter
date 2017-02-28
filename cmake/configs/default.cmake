@@ -24,7 +24,7 @@ include(hunter_user_error)
 
 # NOTE: no names with spaces!
 
-hunter_config(puffin-stream VERSION 0.1.0.2)
+hunter_config(puffin-stream VERSION 0.2.0.0)
 hunter_config(puffin-buffer VERSION 0.3.0.0)
 hunter_config(AllTheFlopsThreads VERSION 0.1-p0)
 hunter_config(Android-Apk VERSION 1.1.13)
