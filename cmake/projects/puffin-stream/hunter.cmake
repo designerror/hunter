@@ -26,4 +26,6 @@ hunter_cmake_args(
     BUILD_TESTS=NO
 )
 
+hunter_cacheable(puffin-stream)
+
 hunter_download(PACKAGE_NAME puffin-stream)
