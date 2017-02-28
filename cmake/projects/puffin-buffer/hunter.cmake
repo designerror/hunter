@@ -14,7 +14,7 @@ hunter_add_version(
     URL
     "https://github.com/designerror/puffin-buffer/archive/v0.3.0.0.tar.gz"
     SHA1
-    db1ffeacffea475c05e4bf7b829ebeba37a6288e
+    cc25f51c7af5f3e27c6c4ca7d58c22239a6ffd68
 )
 
 hunter_add_version(
