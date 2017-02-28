@@ -58,5 +58,5 @@ hunter_cmake_args(
     BUILD_DOCS=NO
     BUILD_TESTS=NO
 )
-
+hunter_cacheable(puffin-buffer)
 hunter_download(PACKAGE_NAME puffin-buffer)
