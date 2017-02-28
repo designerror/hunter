@@ -10,6 +10,17 @@ hunter_add_version(
     PACKAGE_NAME
     puffin-stream
     VERSION
+    "0.1.0.1"
+    URL
+    "https://github.com/designerror/puffin-stream/archive/v0.1.0.1.tar.gz"
+    SHA1
+    d43ab351dcb864faa8d05abaf7eef4fd5e8d0592
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    puffin-stream
+    VERSION
     "0.1.0.0"
     URL
     "https://github.com/designerror/puffin-stream/archive/v0.1.0.0.tar.gz"
