@@ -12,7 +12,7 @@ hunter_add_version(
     VERSION
     "0.3.0.0"
     URL
-    "https://github.com/designerror/puffin-buffer/archive/v0.2.0.1.tar.gz"
+    "https://github.com/designerror/puffin-buffer/archive/v0.3.0.0.tar.gz"
     SHA1
     db1ffeacffea475c05e4bf7b829ebeba37a6288e
 )
