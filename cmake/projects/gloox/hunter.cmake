@@ -14,7 +14,7 @@ hunter_add_version(
     URL
     "https://github.com/designerror/gloox/archive/v1.0.20.tar.gz"
     SHA1
-    d4c8a7be9d510e7aaba04f7b3a6744d163b049c3
+    0170053e76b86ab10cbae4253221fd51d8f32f59
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
