@@ -6,6 +6,18 @@ include(hunter_pick_scheme)
 
 # List of versions here...
 
+
+hunter_add_version(
+    PACKAGE_NAME
+    gloox
+    VERSION
+    "1.0.20-p2"
+    URL
+    "https://github.com/designerror/gloox/archive/v1.0.20-p2.tar.gz"
+    SHA1
+    f337df8459c43df0091ace43fdcde412a9ede676
+)
+
 hunter_add_version(
     PACKAGE_NAME
     gloox
