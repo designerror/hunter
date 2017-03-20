@@ -10,6 +10,17 @@ hunter_add_version(
     PACKAGE_NAME
     gloox
     VERSION
+    "1.0.20-p1"
+    URL
+    "https://github.com/designerror/gloox/archive/v1.0.20-p1.tar.gz"
+    SHA1
+    b071e9b11c4afaa308a5f0c01df627388915bf6b
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    gloox
+    VERSION
     "1.0.20"
     URL
     "https://github.com/designerror/gloox/archive/v1.0.20.tar.gz"
