@@ -25,7 +25,7 @@ include(hunter_user_error)
 # NOTE: no names with spaces!
 
 hunter_config(gloox VERSION 1.0.20)
-hunter_config(wdc VERSION 1.0.1-hunter)
+hunter_config(wdc VERSION 1.0.1-hunter-p1)
 hunter_config(pugixml VERSION 1.8.1)
 hunter_config(puffin-stream VERSION 0.2.2.0)
 hunter_config(puffin-buffer VERSION 0.3.2.0)
