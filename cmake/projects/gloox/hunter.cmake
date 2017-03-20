@@ -6,7 +6,6 @@ include(hunter_pick_scheme)
 
 # List of versions here...
 
-
 hunter_add_version(
     PACKAGE_NAME
     gloox
@@ -40,7 +39,7 @@ hunter_add_version(
     0170053e76b86ab10cbae4253221fd51d8f32f59
 )
 
-hunter_pick_scheme(DEFAULT url_sha1_cmake)
+hunter_pick_scheme(DEFAULT url_sha1_autotools)
 
 hunter_cmake_args(
     gloox
