@@ -8,6 +8,17 @@ hunter_add_version(
     PACKAGE_NAME
     wdc
     VERSION
+    "1.0.1-hunter-p1"
+    URL
+    "https://github.com/designerror/webdav-client-cpp/archive/v1.0.1-hunter-p1.tar.gz"
+    SHA1
+    57ec65f9059d0ed119766e9069645958b90606f1
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    wdc
+    VERSION
     "1.0.1-hunter"
     URL
     "https://github.com/designerror/webdav-client-cpp/archive/v1.0.1-hunter.tar.gz"
