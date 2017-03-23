@@ -82,5 +82,5 @@ hunter_cacheable(gloox)
 
 hunter_download(
     PACKAGE_NAME gloox 
-    PACKAGE_INTERNAL_DEPS_ID "1"
+    PACKAGE_INTERNAL_DEPS_ID "2"
 )
