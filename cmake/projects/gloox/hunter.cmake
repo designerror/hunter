@@ -1,10 +1,20 @@
 include(hunter_add_version)
 include(hunter_cacheable)
-include(hunter_cmake_args)
 include(hunter_download)
 include(hunter_pick_scheme)
 
 # List of versions here...
+
+hunter_add_version(
+    PACKAGE_NAME
+    gloox
+    VERSION
+    "1.0.20-p4"
+    URL
+    "https://github.com/designerror/gloox/archive/v1.0.20-p4.tar.gz"
+    SHA1
+    d7e0c4ca27f8b68158c9428518bdcb3312fedd24
+)
 
 hunter_add_version(
     PACKAGE_NAME
@@ -49,16 +59,16 @@ hunter_add_version(
     SHA1
     0170053e76b86ab10cbae4253221fd51d8f32f59
 )
-
-hunter_pick_scheme(DEFAULT url_sha1_cmake)
-
-hunter_cmake_args(
-    gloox
-    CMAKE_ARGS
-    BUILD_DOCS=NO
-    BUILD_TESTS=NO
-)
+if(WIN32)
+    hunter_pick_scheme(DEFAULT url_sha1_cmake)
+else()
+    hunter_configuration_types(gloox CONFIGURATION_TYPES Release)
+    hunter_pick_scheme(DEFAULT url_sha1_gloox_autotools)
+endif()
 
 hunter_cacheable(gloox)
 
-hunter_download(PACKAGE_NAME gloox)
+hunter_download(
+    PACKAGE_NAME gloox 
+    PACKAGE_INTERNAL_DEPS_ID "1"
+)
