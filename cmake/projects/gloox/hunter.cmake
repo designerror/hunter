@@ -2,6 +2,7 @@ include(hunter_add_version)
 include(hunter_cacheable)
 include(hunter_download)
 include(hunter_pick_scheme)
+include(hunter_configuration_types)
 
 # List of versions here...
 
