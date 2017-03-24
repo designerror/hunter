@@ -24,7 +24,7 @@ include(hunter_user_error)
 
 # NOTE: no names with spaces!
 
-hunter_config(vmime VERSION 0.9.2.1)
+hunter_config(vmime VERSION 0.9.2.2)
 hunter_config(gloox VERSION 1.0.20-p5)
 hunter_config(wdc VERSION 1.0.1-hunter-p1)
 hunter_config(pugixml VERSION 1.8.1)
