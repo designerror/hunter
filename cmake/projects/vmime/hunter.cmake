@@ -6,7 +6,7 @@ include(hunter_pick_scheme)
 
 hunter_add_version(
 	PACKAGE_NAME vmime
-	VERSION "0.9.2.1"
+	VERSION "0.9.2.2"
 	URL "https://github.com/designerror/vmime/archive/v0.9.2.2.tar.gz"
 	SHA1 a7cc34e9f3db3f9f705c87ae7697b9cae67fe1af
 )
