@@ -30,7 +30,7 @@ hunter_test_string_not_empty("@HUNTER_GLOBAL_SCRIPT_DIR@")
 
 if(APPLE)
   set(configure_command "./Configure")
-  set(configure_opts "darwin64-x86_64-cc")
+  set(configure_opts "darwin64-x86_64-cc no-asm")
 else()
   set(configure_command "./config")
 endif()
