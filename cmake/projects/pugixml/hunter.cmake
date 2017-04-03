@@ -6,6 +6,14 @@ include(hunter_cmake_args)
 include(hunter_download)
 include(hunter_pick_scheme)
 
+
+hunter_add_version(
+    PACKAGE_NAME pugixml
+    VERSION "1.8.1.1"
+    URL "https://github.com/designerror/pugixml/archive/v1.8.1.1.tar.gz"
+    SHA1 2868d91802aa9ec1af1d50423f93740f42cc796f
+)
+
 hunter_add_version(
     PACKAGE_NAME pugixml
     VERSION "1.8.1"
